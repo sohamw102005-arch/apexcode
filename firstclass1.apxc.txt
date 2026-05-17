@@ -1,0 +1,56 @@
+public class FirstClass {
+
+    public static void Addition() {
+
+        Integer a = 4;
+        Integer b = 5;
+        Integer c = a + b;
+        Integer d = 4 + 5;
+
+        System.debug('ADD = ' + c);
+        System.debug('ADD = ' + d);
+    }
+
+    public static void Subtraction() {
+
+        Integer a = 4;
+        Integer b = 5;
+
+        Integer c = a - b;
+        Integer d = 4 - 5;
+        Integer f = a - 5;
+
+        System.debug('Sub = ' + c);
+        System.debug('Sub = ' + d);
+        System.debug('Sub = ' + f);
+    }
+
+    public static void Multi() {
+
+        Integer a = 4;
+        Integer b = 5;
+
+        Integer c = a * b;
+        Integer d = 4 * 5;
+
+        System.debug(c);
+        System.debug(d);
+
+        Integer f = a * 4;
+        Integer g = a * f;
+    }
+
+    public static void div() {
+
+        Integer a = 4;
+        Integer b = 5;
+
+        Integer c = a / b;
+        Integer d = 4 / 5;
+        Integer e = a / 5;
+
+        System.debug(c);
+        System.debug(d);
+        System.debug(e);
+    }
+}
